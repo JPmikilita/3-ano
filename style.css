@@ -12,7 +12,7 @@
 
 }
 body{
-    background-color: aqua;
+    background-color: var(--verde);
     color: var(--branco);
     font-family: 'Chakra Petch', 'San-Serif';
 }
@@ -33,4 +33,36 @@ body{
 }
 .titulo-principal span{
     color: var(--verde-limao)
+}
+
+.botao{
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: var(--cor-rosa);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--verde-limao);
+    border-left: 2px solid var(--verde-limao);
+    border-right: 2px solid var(--verde-limao);
+    border-top: none;
+}
+.botao:first-child{
+    border-radius: 40px 0 0 0;
+
+}
+.botoe{
+    display: block;
+}
+@media screen and (min-width: 768px){
+    .botoes{
+        display: flex;
+    }
+    .botao:last-child{
+        border-radius: 0 40px 0 0;
+    }
+    
 }
