@@ -54,8 +54,12 @@ body{
     border-radius: 40px 0 0 0;
 
 }
-.botoe{
+.botoes{
     display: block;
+}
+.ativo{
+    background-color: var(--branco);
+    border-bottom: var(--cor-de-fundo);
 }
 @media screen and (min-width: 768px){
     .botoes{
