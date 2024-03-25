@@ -42,12 +42,12 @@ body{
     display: flex;
     justify-content: center;
     padding: 1em;
-    font-size: 18px;
+    font-size: 16px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--verde-limao);
-    border-left: 2px solid var(--verde-limao);
-    border-right: 2px solid var(--verde-limao);
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
 .botao:first-child{
@@ -58,12 +58,26 @@ body{
     display: block;
 }
 .ativo{
-    background-color: var(--branco);
-    border-bottom: var(--cor-de-fundo);
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+.aba-textos{
+    background-color: var(--cor-de-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+.aba-conteudo-ativo{
+    display: block;
+}
+.aba-conteudo{
+    display: none;
 }
 @media screen and (min-width: 768px){
     .botoes{
         display: flex;
+    }
+    .botao:first-child{
+        border-radius: 40px 0 0 0;
     }
     .botao:last-child{
         border-radius: 0 40px 0 0;
