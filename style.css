@@ -61,15 +61,15 @@ body{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
-.abas-textos{
+.abas-texto{
     background-color: var(--cor-de-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
-.abas-conteudo-ativo{
+.aba-conteudo.ativo{
     display: block;
 }
-.abas-conteudo{
+.aba-conteudo{
     display: none;
 }
 .aba-conteudo-titulo-principal{
